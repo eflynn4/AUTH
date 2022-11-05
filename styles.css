@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #7d7b81;
+    background-image: linear-gradient(to bottom, rgb(183, 183, 183) 0%, rgb(101, 101, 101) 50%, #373737 100%);
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    background-image: url(images/_3.png);
+    background-size: 160px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#navbar__logo {
+    height: 85%;
+    display: flex;
+    align-items: left;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.main__background {
+    background: #7d7b81;
+    background-image: linear-gradient(to right, rgb(201, 201, 201) 0%, rgb(105, 105, 105) 70%, #3a3a3a 100%);
+}
+
+.main__background--img {
+    background-image: url(/images/Eva\ Background\ 3.png);
+    background-size: 250px auto;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 86vh;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#product {
+    margin: 1rem;
+    border-radius: 4px;
+    background-image: url('/images/product1.jpg');
+    height: 330px;
+    width: 263px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.3), 0px 0px 12px 8px rgba(0, 0, 0, 0.2);
+}
+
+#product:before {
+    opacity: 0.2;
+}
+
+#product:nth-child(2) {
+    background-image: url('/images/product2.jpg');
+    height: 350px;
+    width: 260px;
+}
+
+#product:nth-child(3) {
+    background-image: url('/images/product3.jpg');
+    height: 339px;
+    width: 250px;
+}
+
+#product:nth-child(4) {
+    background-image: url('/images/product4.jpg');
+    height: 355px;
+    width: 265px;
+}
+
+#product:hover {
+    transform: scale(1.025);
+    transition: 0.2 ease-in;
+    cursor: pointer;
+}
+
+.product__container {
+    display: flex;
+    height: auto;
+}
+
+.product__page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 86vh;
+    z-index: 1;
+    width: 80%;
+}
+
+.product__img--container {
+    text-align: center;
+}
+
+#product__img {
+    height: 65%;
+    width: 65%;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 14px rgba(0, 0, 0, 0.2);
+}
+
+.product__details {
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.product__details h1 {
+    font-size: 2.9rem;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(218, 218, 218);
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+}
+
+.product__details h2 {
+    font-size: 2rem;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    padding-top: 7px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+}
+
+.product__details h3 {
+    font-size: 1rem;
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(212, 212, 212);
+    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(219, 219, 219);
+    -moz-text-fill-color: transparent;
+}
+
+.product__details p {
+    font-size: 1.15rem;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1), 0px 0px 5px rgba(0, 0, 0, 1), 0px 0px 1px rgba(0, 0, 0, 2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -moz-text-fill-color: transparent;
+}
+
+#archive__img {
+    margin: 1rem;
+    background-image: url('/images/product1.jpg');
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 8px rgba(0, 0, 0, 0.2);
+}
+
+.archive__page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 380vh;
+}
+
+.archive__page h3 {
+    top: 50px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 0.85rem;
+    position:relative;
+    color: #fff;
+    opacity: 60%;
+}
+
+#xD {
+    height: 140px;
+    margin-bottom: 15vh;
+}
