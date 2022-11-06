@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-body {
+/* body {
+    justify-self: center;
     position: absolute;
-}
+} */
 
 .navbar {
     background-color: #7d7b81;
@@ -19,7 +20,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
-    width: 100vh;
+    width: 100vw;
 }
 
 .navbar__container {
@@ -33,7 +34,7 @@ body {
     /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 30px;
-    width: 100vh;
+    width: 100%;
 }
 
 #navbar__logo {
