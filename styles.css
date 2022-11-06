@@ -19,7 +19,7 @@
 
 .navbar__container {
     background-image: url(images/OG2.png);
-    background-size: 160px;
+    background-size: 28vh;
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -66,8 +66,8 @@
     margin: 1rem;
     border-radius: 4px;
     background-image: url('images/product1.jpg');
-    height: 330px;
-    width: 263px;
+    height: 63vh;
+    width: 49vh;
     background-size: cover;
     position: relative;
     color: #fff;
@@ -80,20 +80,20 @@
 
 #product:nth-child(2) {
     background-image: url('images/product2.jpg');
-    height: 350px;
-    width: 260px;
+    height: 64vh;
+    width: 47vh;
 }
 
 #product:nth-child(3) {
     background-image: url('images/product3.jpg');
-    height: 339px;
-    width: 250px;
+    height: 62vh;
+    width: 46vh;
 }
 
 #product:nth-child(4) {
     background-image: url('images/product4.jpg');
-    height: 355px;
-    width: 265px;
+    height: 65vh;
+    width: 49vh;
 }
 
 #product:hover {
@@ -104,18 +104,16 @@
 
 .product__container {
     display: flex;
-    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 86vh;
 }
 
 .product__page {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 86vh;
-    z-index: 1;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product__img--container {
@@ -123,14 +121,22 @@
 }
 
 #product__img {
-    height: 65%;
-    width: 65%;
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-left: 3rem;
+    height: 75vh;
+    width: 60vh;
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 14px rgba(0, 0, 0, 0.2);
 }
 
 .product__details {
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
+    position: relative;
+    width: 95vh;
 }
 
 .product__details h1 {
@@ -223,4 +229,133 @@
 #xD {
     height: 140px;
     margin-bottom: 15vh;
+}
+
+@media screen and (max-width: 216vh) {
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 150vh;
+    }
+    
+    .main__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 109vh) {
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 300vh;
+    }
+    
+    .main__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 200vh) {
+    .product__details h1 {
+        font-size: 2.7rem;
+    }
+
+    .product__details p {
+        font-size: 1.1rem;
+    }
+
+    #product__img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@media screen and (max-width: 190vh) {
+    .product__details {
+        width: 70vh;
+    }
+    
+    .product__details h1 {
+        font-size: 2.2rem;
+    }
+
+    .product__details h2 {
+        font-size: 1.8rem;
+    }
+
+    .product__details h3 {
+        font-size: 0.8rem;
+    }
+
+    .product__details p {
+        font-size: 1rem;
+    }
+
+    #product__img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@media screen and (max-width: 160vh) {
+    .product__container {
+        height: 155vh;
+    }
+    
+    .product__details {
+        width: 80vh;
+    }
+
+    #product__img {
+        height: 65vh;
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 120vh) {
+    .product__details {
+        width: 70vh;
+    }
+}
+
+@media screen and (max-width: 100vh) {
+    .product__details {
+        width: 60vh;
+    }
+
+    .product__details h1 {
+        font-size: 2rem;
+    }
+
+    .product__details h2 {
+        font-size: 1.5rem;
+    }
+
+    .product__details h3 {
+        font-size: 0.8rem;
+    }
+
+    .product__details p {
+        font-size: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 190vh){
+    .archive__page {
+        height: 465vh;
+    }
+}
+
+@media screen and (max-width: 120vh){
+    .archive__page {
+        height: 850vh;
+    }
 }
