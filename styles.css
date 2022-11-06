@@ -44,7 +44,7 @@
 }
 
 .main__background--img {
-    background-image: url(/images/Eva\ Background\ 3.png);
+    background-image: url(images/Eva\ Background\ 3.png);
     background-size: 250px auto;
 }
 
@@ -65,7 +65,7 @@
 #product {
     margin: 1rem;
     border-radius: 4px;
-    background-image: url('/images/product1.jpg');
+    background-image: url('images/product1.jpg');
     height: 330px;
     width: 263px;
     background-size: cover;
@@ -79,19 +79,19 @@
 }
 
 #product:nth-child(2) {
-    background-image: url('/images/product2.jpg');
+    background-image: url('images/product2.jpg');
     height: 350px;
     width: 260px;
 }
 
 #product:nth-child(3) {
-    background-image: url('/images/product3.jpg');
+    background-image: url('images/product3.jpg');
     height: 339px;
     width: 250px;
 }
 
 #product:nth-child(4) {
-    background-image: url('/images/product4.jpg');
+    background-image: url('images/product4.jpg');
     height: 355px;
     width: 265px;
 }
@@ -194,7 +194,7 @@
 
 #archive__img {
     margin: 1rem;
-    background-image: url('/images/product1.jpg');
+    background-image: url('images/product1.jpg');
     height: 400px;
     width: 300px;
     background-size: cover;
