@@ -44,7 +44,7 @@
 }
 
 .main__background--img {
-    background-image: url(images/Eva\ Background\ 3.png);
+    background-image: url(EvaWeb/images/Eva\ Background\ 3.png);
     background-size: 250px auto;
 }
 
@@ -79,7 +79,7 @@
 }
 
 #product:nth-child(2) {
-    background-image: url('images/product2.jpg');
+    background-image: url('/EvaWeb/images/product2.jpg');
     height: 350px;
     width: 260px;
 }
