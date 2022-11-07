@@ -394,7 +394,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        height: 280vh;
+        height: 290vh;
     }
     
     .main__container {
@@ -405,6 +405,7 @@
 
     .product__details {
         width: 70vw;
+        height: auto;
     }
     
     .product__details h1 {
