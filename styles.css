@@ -22,10 +22,10 @@
     background-image: url(images/OG2.png);
     background-size: 28vh;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     height: 100%;
     z-index: 1;
-    width: 100%;
+    /* width: 100%; */
     /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 30px;
@@ -36,7 +36,7 @@
     width: auto;
     display: flex;
     /* align-items: left; */
-    /* margin: auto 0; */
+    margin: auto 0;
     cursor: pointer;
 }
 
