@@ -136,6 +136,7 @@
 
 .product__page {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -425,9 +426,6 @@
     #product__img {
         margin-top: 10vh;
         margin-bottom: auto;
-    }
-
-    #product__img {
         width: 70vw;
         height: auto;
     }
