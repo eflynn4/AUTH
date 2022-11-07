@@ -22,13 +22,19 @@
     background-image: url(images/OG2.png);
     background-size: 28vh;
     display: flex;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: center;
     z-index: 1;
-    width: 100vw;
+    /* height: 100%; */
+    /* width: 100vw; */
     /* max-width: 1300px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* padding: 0 30px; */
+}
+
+.logo__container {
+    z-index: 2;
+    justify-content: space-between;
+    padding: 0px 15px;
 }
 
 #navbar__logo {
