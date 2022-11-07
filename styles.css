@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .navbar__container {
@@ -35,8 +35,8 @@
     height: 11.5vh;
     width: auto;
     display: flex;
-    align-items: left;
-    margin: auto 0;
+    /* align-items: left; */
+    /* margin: auto 0; */
     cursor: pointer;
 }
 
