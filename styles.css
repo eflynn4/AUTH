@@ -28,13 +28,13 @@
     width: 100%;
 }
 
-/* .logo__container {
+.logo__container {
     display: flex;
     z-index: 2;
     width: 100%;
     justify-content: space-between;
     padding: 0px 15px;
-} */
+}
 
 /* #navbar__logo {
     height: 11.5vh;
