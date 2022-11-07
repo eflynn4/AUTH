@@ -18,7 +18,7 @@
     width: 100vw;
 }
 
-/* .navbar__container {
+.navbar__container {
     background-image: url(images/OG2.png);
     background-size: 28vh;
     display: flex;
@@ -26,10 +26,7 @@
     z-index: 1;
     height: 100%;
     width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 30px;
-} */
+}
 
 /* .logo__container {
     display: flex;
