@@ -163,7 +163,7 @@
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: #fff;
+    background-color: rgb(233, 233, 233);
     background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -187,8 +187,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.2);
     -webkit-appearance: none;
 }
 
@@ -210,6 +210,7 @@
 .product__details p {
     font-size: 1.15rem;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1), 0px 0px 5px rgba(0, 0, 0, 1), 0px 0px 1px rgba(0, 0, 0, 2);
+    color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
@@ -372,19 +373,30 @@
     
     .product__details h1 {
         font-size: 2.2rem;
+        text-shadow: none;
+        -webkit-text-stroke-color:rgba(0, 0, 0, 0.5);
+
     }
 
     .product__details h2 {
         font-size: 1.8rem;
+        text-shadow: none;
+        -webkit-text-stroke-color:rgba(0, 0, 0, 0.5);
     }
 
     .product__details h3 {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         margin-bottom: 5vh;
+        text-shadow: none;
+        -webkit-text-stroke-color:rgba(0, 0, 0, 0.5);
+        -webkit-text-stroke-width: 1px;
     }
 
     .product__details p {
         font-size: 0.85rem;
+        text-shadow: none;
+        -webkit-text-stroke-color:rgba(0, 0, 0, 0.2);
+        -webkit-text-stroke-width: 1px;
     }
 
     #product__img {
