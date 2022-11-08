@@ -21,6 +21,7 @@ body {
     top: 0;
     z-index: 999;
     width: 100vw;
+    overflow-y: scroll;
 }
 
 .navbar__container {
@@ -29,9 +30,9 @@ body {
     display: flex;
     justify-content: center;
     z-index: 1;
-    overflow-y: hidden;
     height: 100%;
     width: 100%;
+    overflow-y: scroll;
 }
 
 .logo__container {
