@@ -172,6 +172,7 @@
     -moz-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
 }
 
 .product__details h2 {
@@ -188,6 +189,7 @@
     -moz-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
 }
 
 .product__details h3 {
@@ -202,6 +204,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(219, 219, 219);
     -moz-text-fill-color: transparent;
+    -webkit-appearance: none;
 }
 
 .product__details p {
@@ -215,6 +218,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
+    -webkit-appearance: none;
 }
 
 #archive__img {
