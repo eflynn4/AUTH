@@ -253,7 +253,7 @@
 #xD {
     height: 140px;
     margin-top: 10vh;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
 @media screen and (max-width: 1230px) {
@@ -269,8 +269,6 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 15vh;
-        margin-bottom: 15vh;
     }
 }
 
