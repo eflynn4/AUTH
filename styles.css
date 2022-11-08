@@ -403,8 +403,14 @@
         flex-wrap: wrap;
     }
 
+    .product__page {
+        align-items: center;
+        height: fit-content;
+        padding: 30px;
+    }
+
     .product__details {
-        width: 70vw;
+        width: 75vw;
         height: auto;
     }
     
@@ -427,11 +433,11 @@
     #product__img {
         margin-top: 10vh;
         margin-bottom: auto;
-        width: 70vw;
+        width: 75vw;
         height: auto;
     }
 
     .archive__page {
-        height: fit-content;
+        height: fit-content + 10vh;
     }
 }
