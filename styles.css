@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #7d7b81;
+    background-color: rgb(183, 183, 183);
     background-image: linear-gradient(to bottom, rgb(183, 183, 183) 0%, rgb(101, 101, 101) 50%, #373737 100%);
 }
 
