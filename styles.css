@@ -21,6 +21,7 @@ body {
     top: 0;
     z-index: 999;
     width: 100vw;
+    top: 50px;
 }
 
 .navbar__container {
@@ -31,9 +32,7 @@ body {
     z-index: 1;
     height: 100%;
     width: 100%;
-    top: 50px;
 }
-
 
 
 .logo__container {
