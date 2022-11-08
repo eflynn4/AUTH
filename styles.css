@@ -91,7 +91,7 @@
     border-radius: 4px;
     background-image: url('images/product1.jpg');
     height: 65vh;
-    width: auto;
+    width: 50vh;
     background-size: cover;
     position: relative;
     color: #fff;
@@ -155,7 +155,7 @@
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
     position: relative;
-    width: 35vw;
+    width: 45vw;
 }
 
 .product__details h1 {
