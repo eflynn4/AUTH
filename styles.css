@@ -388,6 +388,8 @@ body {
         text-shadow: none;
         -webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
         -webkit-text-stroke-width: 0.4px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
     }
 
     #product__img {
