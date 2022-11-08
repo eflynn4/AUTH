@@ -90,8 +90,8 @@
     margin: 1rem;
     border-radius: 4px;
     background-image: url('images/product1.jpg');
-    height: 65vh;
-    width: 50vh;
+    height: 62vh;
+    width: 48vh;
     background-size: cover;
     position: relative;
     color: #fff;
@@ -243,7 +243,7 @@
     position:relative;
     color: #fff;
     opacity: 60%;
-    bottom: 50px;
+    margin-bottom: 10vh;
 }
 
 #xD {
@@ -351,8 +351,8 @@
         height: 290vh;
     }
     
-    .product__page {
-        height: fit-content + 10vh;
+    .product__container {
+        height: fit-content;
         padding: 30px;
     }
 
@@ -375,10 +375,11 @@
 
     .product__details p {
         font-size: 0.85rem;
+        margin-bottom 7vh;
     }
 
     #product__img {
-        margin-top: 10vh;
+        margin-top: 7vh;
         margin-bottom: auto;
         width: 65vw;
         height: auto;
