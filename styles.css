@@ -350,6 +350,11 @@
     .main {
         height: 290vh;
     }
+
+    #product {
+        height: 50vh;
+        width: 38vh;
+    }
     
     .product__container {
         height: fit-content;
