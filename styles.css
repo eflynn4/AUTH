@@ -29,10 +29,11 @@ body {
     display: flex;
     justify-content: center;
     z-index: 1;
-    overflow-y: visible;
     width: 100%;
-    
+    top: 50px;
 }
+
+
 
 .logo__container {
     display: flex;
