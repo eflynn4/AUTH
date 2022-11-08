@@ -262,13 +262,15 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        height: 150vh;
+        height: fit-content;
     }
     
     .main__container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
     }
 }
 
