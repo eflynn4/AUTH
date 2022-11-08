@@ -352,10 +352,6 @@
 /* --Mobile Version-- */
 
 @media screen and (max-width: 500px){
-    .main {
-        height: 290vh;
-    }
-
     #product {
         height: 50vh;
         width: 38vh;
