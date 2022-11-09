@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(185, 185, 185);
     background-image: linear-gradient(to right, rgb(201, 201, 201) 0%, rgb(105, 105, 105) 70%, #3a3a3a 100%);
 }
 
@@ -21,7 +21,6 @@ body {
     top: 0;
     z-index: 999;
     width: 100%;
-    /* overflow-y: scroll; */
 }
 
 .navbar__container {
@@ -390,9 +389,10 @@ body {
         -webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
         -webkit-text-stroke-width: 0.4px;
     }
-    
+
     .product__details p span {
-        background-color: rgba(0, 0, 0, 0.3);       
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
     }
 
     #product__img {
