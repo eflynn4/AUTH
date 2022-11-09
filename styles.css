@@ -376,7 +376,7 @@ body {
     }
 
     .product__details h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: 10vh;
         text-shadow: none;
         -webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
