@@ -263,6 +263,7 @@ body {
 }
 
 @media screen and (max-width: 1300px) {
+
     .main {
         display: flex;
         align-items: center;
@@ -275,6 +276,8 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
 }
 
