@@ -82,10 +82,12 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 86vh;
+    height: fit-content;
 }
 
 .main__container {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
     display: flex;
     justify-content: center;
     flex-wrap: unset;
@@ -108,15 +110,19 @@ body {
 }
 
 #product:nth-child(2) {
-    background-image: url('images/product2.jpg');
-}
-
-#product:nth-child(3) {
     background-image: url('images/product3.jpg');
 }
 
-#product:nth-child(4) {
+#product:nth-child(3) {
     background-image: url('images/product4.jpg');
+}
+
+#product:nth-child(4) {
+    background-image: url('images/crazypainting.jpg')
+}
+
+#product:nth-child(5) {
+    background-image: url('images/crazypainting2.jpg')
 }
 
 #product:hover {
@@ -247,7 +253,7 @@ body {
 }
 
 .archive__page h3 {
-    top: 50px;
+    top: 30px;
     font-family: "Kumbh Sans", sans-serif;
     font-size: 0.85rem;
     position:relative;
@@ -293,23 +299,6 @@ body {
 }
 
 @media screen and (max-width: 1245px) {
-
-    #product {
-        height: 360px;
-        width: 270px;
-    }
-
-    .main {
-        height: fit-content;
-    }
-
-    .main__container {
-        margin-bottom: 10vh;
-    }
-
-    #product {
-        margin-top: 10vh;
-    }
 
     .product__details h1 {
         font-size: 2.7rem;
@@ -392,11 +381,6 @@ body {
 /* --Mobile Version-- */
 
 @media screen and (max-width: 500px){
-
-    /* #product {
-        height: 70vh;
-        width: 54vh;
-    } */
     
     .product__container {
         height: fit-content;
