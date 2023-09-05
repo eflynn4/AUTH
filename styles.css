@@ -397,8 +397,9 @@ body {
 
 #archive__img {
     margin: 1rem;
-    height: 400px;
-    width: auto;
+    /*height: 400px;*/
+    width: 75vw;
+    height: auto;
     background-size: cover;
     position: relative;
     color: #fff;
