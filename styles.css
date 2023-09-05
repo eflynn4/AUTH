@@ -397,9 +397,9 @@ body {
 
 #archive__img {
     margin: 1rem;
-    /*height: 400px;*/
-    width: 75vw;
-    height: auto;
+    height: 400px;
+    width: auto;
+    max-width: 85vw;
     background-size: cover;
     position: relative;
     color: #fff;
@@ -620,5 +620,10 @@ body {
 
     .archive__page {
         height: fit-content + 10vh;
+    }
+    
+    #archive__img {
+        width: 80vw;
+        height: auto;
     }
 }
