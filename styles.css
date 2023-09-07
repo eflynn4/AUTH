@@ -86,61 +86,62 @@ body {
 }
 
 .main__container {
+    /*font-family: "Kumbh Sans", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     width: fit-content;
     display: flex;
     text-align: left;
-    border:#373737;
-    border-style: solid;
+    /*border:#373737;
+    border-style: solid;*/
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .main__container h1 {
-    border:#373737;
-    border-style: solid;
+    /*border:#373737;
+    border-style: solid;*/
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
     width: 95vw;
     font-size: 3rem;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
-    background-color: rgb(233, 233, 233);
-    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color:rgb(218, 218, 218);
-    -moz-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
-    -webkit-appearance: none;
-}
-.main__container h2 {
-    border:#373737;
-    border-style: solid;
-    margin: 0.5rem;
-    margin-top: 2.5rem;
-    font-size: 2rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke-width: 1rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
+}
+.main__container h2 {
+    /*border:#373737;
+    border-style: solid;*/
+    margin: 0.5rem;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    background-color: #fff;
+    background-image: linear-gradient(to top, #474747 0%, #ffffff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: .7rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
     -webkit-appearance: none;
 }
 
 .main__container h3 {
     top: 30px;
-    font-family: "Kumbh Sans", sans-serif;
     font-size: 0.85rem;
     position:relative;
-    color: #fff;
-    opacity: 70%;
+    color: rgb(255, 255, 255);
+    opacity: 60%;
     margin-top: 5vh;
     margin-bottom: 15vh;
 }
@@ -151,15 +152,15 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border:#373737;
-    border-style: solid;
+    /*border:#373737;
+    border-style: solid;*/
     outline:rgba(0, 0, 0, 0.2);
 }
 
 #painting {
+    --h: 380px;
+    height: var(--h);
     margin: 1rem;
-    height: 380px;
-    width: 280px;
     background-size: cover;
     position: relative;
     color: #fff;
@@ -168,22 +169,32 @@ body {
 
 #painting:nth-child(1) {
     background-image: url('images/crazypainting2.jpg');
+    width: calc(var(--h)*(26/35));
+    aspect-ratio: 26/35;
 }
 
 #painting:nth-child(2) {
     background-image: url('images/crazypainting.jpg');
+    width: calc(var(--h)*(13/16));
+    aspect-ratio: 13/16;
 }
 
 #painting:nth-child(3) {
     background-image: url('images/product1.jpg');
+    width: calc(var(--h)*(26/33));
+    aspect-ratio: 26/33;
 }
 
 #painting:nth-child(4) {
-    background-image: url('images/product3.jpg')
+    background-image: url('images/product3.jpg');
+    width: calc(var(--h)*(25/34));
+    aspect-ratio: 25/34;
 }
 
 #painting:nth-child(5) {
-    background-image: url('images/product4.jpg')
+    background-image: url('images/product4.jpg');
+    width: calc(var(--h)*(26/35));
+    aspect-ratio: 26/35;
 }
 
 #painting:hover {
@@ -193,7 +204,7 @@ body {
 }
 
 #digital {
-    --h: 390px;
+    --h: 380px;
     height: var(--h);
     display: block;
     margin: 1rem;
@@ -314,7 +325,8 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-family: "Kumbh Sans", sans-serif;
+    /*font-family: "Kumbh Sans", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     position: relative;
     width: 45vw;
 }
@@ -333,13 +345,13 @@ body {
     padding-top: 7px;
     padding-bottom: 7px;
     background-color: rgb(233, 233, 233);
-    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-image: linear-gradient(to top, #292929 0%, #c3c3c3 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color:rgb(218, 218, 218);
+    -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: .9rem;
     -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
     -webkit-appearance: none;
 }
@@ -350,7 +362,7 @@ body {
     padding-top: 7px;
     padding-bottom: 0px;
     background-color: #fff;
-    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-image: linear-gradient(to top, #2c2c2c 0%, #cecece 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -366,12 +378,14 @@ body {
     text-shadow: 0px 0px 40px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: rgb(212, 212, 212);
-    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-color: rgb(234, 234, 234);
+    background-image: linear-gradient(to top, #313131 0%, #858585 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color:rgb(219, 219, 219);
+    -webkit-text-fill-color:rgb(241, 241, 241);
+    -webkit-text-stroke-width: .8rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.14);
     -moz-text-fill-color: transparent;
     -webkit-appearance: none;
 }
@@ -412,30 +426,33 @@ body {
     flex-direction: column;
     justify-content: center;
     height: fit-content;
+    /*font-family: "Kumbh Sans", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
 }
 
 .archive__page h1 {
-    border:rgba(0, 0, 0, 0.7);
-    border-style: solid;
+    /*border:#373737;
+    border-style: solid;*/
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 3.5rem;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color:rgb(218, 218, 218);
+    -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1rem;
     -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
     -webkit-appearance: none;
 }
 
 .archive__page h3 {
     top: 30px;
-    font-family: "Kumbh Sans", sans-serif;
+    /*font-family: "Kumbh Sans", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     font-size: 0.85rem;
     position:relative;
     color: #fff;
@@ -559,6 +576,11 @@ body {
         font-size: 0.95rem;
     }
     
+    #painting {
+        max-width: 85vw;
+        height: auto;
+    }
+
     #digital {
         max-width: 85vw;
         height: auto;
@@ -614,7 +636,7 @@ body {
     #product__img {
         margin-top: 10vh;
         margin-bottom: auto;
-        width: 65vw;
+        width: 70vw;
         height: auto;
     }
 
