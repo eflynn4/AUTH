@@ -105,16 +105,16 @@ body {
     margin-bottom: 0.8rem;
     width: 95vw;
     font-size: 3rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    /*text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-image: linear-gradient(to top, #151515 0%, #c1c1c1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
     -webkit-text-stroke-width: 1rem;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.35);
     -webkit-appearance: none;
 }
 .main__container h2 {
@@ -123,16 +123,16 @@ body {
     margin: 0.5rem;
     margin-top: 2.5rem;
     font-size: 2rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    /*text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     background-color: #fff;
-    background-image: linear-gradient(to top, #474747 0%, #ffffff 100%);
+    background-image: linear-gradient(to top, #151515 0%, #c1c1c1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
     -webkit-text-stroke-width: .7rem;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.35);
     -webkit-appearance: none;
 }
 
@@ -344,15 +344,15 @@ body {
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: rgb(233, 233, 233);
-    background-image: linear-gradient(to top, #292929 0%, #c3c3c3 100%);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #3e3e3e 0%, #c1c1c1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
     -webkit-text-stroke-width: .9rem;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.35);
     -webkit-appearance: none;
 }
 
@@ -362,14 +362,14 @@ body {
     padding-top: 7px;
     padding-bottom: 0px;
     background-color: #fff;
-    background-image: linear-gradient(to top, #2c2c2c 0%, #cecece 100%);
+    background-image: linear-gradient(to top, #3e3e3e 0%, #c1c1c1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke-width: .5rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
     -webkit-appearance: none;
 }
 
@@ -378,14 +378,14 @@ body {
     text-shadow: 0px 0px 40px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: rgb(234, 234, 234);
-    background-image: linear-gradient(to top, #313131 0%, #858585 100%);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #3e3e3e 0%, #c1c1c1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color:rgb(241, 241, 241);
+    -webkit-text-fill-color:rgb(255, 255, 255);
     -webkit-text-stroke-width: .8rem;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.14);
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.15);
     -moz-text-fill-color: transparent;
     -webkit-appearance: none;
 }
@@ -436,16 +436,16 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 3.5rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    /*text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to top, #7e7e7e 0%, #ffffff 100%);
+    background-image: linear-gradient(to top, #151515 0%, #c1c1c1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -moz-text-fill-color: transparent;
     -webkit-text-stroke-width: 1rem;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.35);
     -webkit-appearance: none;
 }
 
