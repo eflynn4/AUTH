@@ -341,11 +341,11 @@ body {
 
 .product__details h1 {
     font-size: 2.9rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    /*text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     padding-top: 7px;
     padding-bottom: 7px;
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to top, #3e3e3e 0%, #c1c1c1 100%);
+    background-image: linear-gradient(to top, #202020 0%, #949494 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -358,11 +358,11 @@ body {
 
 .product__details h2 {
     font-size: 2rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    /*text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     padding-top: 7px;
     padding-bottom: 0px;
     background-color: #fff;
-    background-image: linear-gradient(to top, #3e3e3e 0%, #c1c1c1 100%);
+    background-image: linear-gradient(to top, #202020 0%, #949494 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -375,11 +375,11 @@ body {
 
 .product__details h3 {
     font-size: 1rem;
-    text-shadow: 0px 0px 40px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);
+    /*text-shadow: 0px 0px 40px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     padding-top: 7px;
     padding-bottom: 7px;
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to top, #3e3e3e 0%, #c1c1c1 100%);
+    background-image: linear-gradient(to top, #303030 0%, rgb(111, 111, 111) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -392,7 +392,7 @@ body {
 
 .product__details p {
     font-size: 1.15rem;
-    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1), 0px 0px 5px rgba(0, 0, 0, 1), 0px 0px 1px rgba(0, 0, 0, 2);
+    /*text-shadow: 0px 0px 30px rgba(0, 0, 0, 1), 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1), 0px 0px 5px rgba(0, 0, 0, 1), 0px 0px 1px rgba(0, 0, 0, 2);*/
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
