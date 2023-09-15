@@ -87,12 +87,7 @@ body {
 }
 
 .main__background--img {
-    /*background-image: url(images/background3.png);
-    background-image: url(images/EVA\ Background\ Big.png);
-    background-size: contain;
-    background-size: 250px auto;*/
-
-    background-image: url(images/EVA\ Background\ 6.png);
+    background-image: url(images/EVA\ Background\ 5.png);
     background-size: contain;
     background-size: 300px auto;
 }
