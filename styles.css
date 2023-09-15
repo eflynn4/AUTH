@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(87, 87, 87);
-    /*background-image: url(images/EVA\ Background.jpg);*/
+    background-image: url(images/EVA\ Background.jpg);
     background-size: 100vw;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .main__background--img {
-    background-image: url(images/EVA\ Background\ 5.png);
+    background-image: url('images/EVA\ Background\ 6.png');
     background-size: contain;
     background-size: 300px auto;
 }
