@@ -6,9 +6,7 @@
 
 body {
     background-color: rgb(87, 87, 87);
-    /*background-image: linear-gradient(to right, rgb(201, 201, 201) 0%, rgb(105, 105, 105) 70%, #3a3a3a 100%);*/
-    background-image: url(images/EVA\ Background.jpg);
-    /*background-size: contain;*/
+    /*background-image: url(images/EVA\ Background.jpg);*/
     background-size: 100vw;
 }
 
