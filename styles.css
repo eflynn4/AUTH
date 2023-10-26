@@ -7,8 +7,9 @@
 body {
     background-color: rgb(103, 103, 103);
     /*background-image: linear-gradient(to right, rgb(201, 201, 201) 0%, rgb(105, 105, 105) 70%, #3a3a3a 100%);*/
-    background-image: url(images/EVA\ Background.jpg);
+    background-image: url(images/EVA\ Background\ 2.jpg);
     /*background-size: contain;*/
+    background-attachment: fixed;
     background-size: 100vw;
 }
 
@@ -16,7 +17,7 @@ body {
     /*background-color: #878787;
     background-image: linear-gradient(to bottom, rgb(77, 77, 77) 0%, #181818 100%);*/
     background-color: rgb(87, 87, 87);
-    background-image: url(images/EVA\ Background.jpg);
+    background-image: url(images/EVA\ Background\ 2.jpg);
     height: 14vh;
     /*display: flex;
     justify-content: center;
@@ -92,8 +93,9 @@ body {
     background-size: 250px auto;*/
 
     background-image: url('images/Eva\ Background\ 6.png');
-    background-size: contain;
-    background-size: 300px auto;
+    background-position-y: 14vh;
+    background-size: 280px;
+    background-attachment: fixed;
 }
 
 .main {
