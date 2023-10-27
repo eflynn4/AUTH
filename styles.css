@@ -10,6 +10,7 @@ body {
     background-image: url(images/EVA\ Background\ 2.jpg);
     /*background-size: contain;*/
     background-attachment: fixed;
+    background-position: fixed;
     background-size: 100vw;
 }
 
@@ -96,6 +97,11 @@ body {
     background-position-y: 14vh;
     background-size: 280px;
     background-attachment: fixed;
+    background-position: fixed;
+    /*position: fixed;*/
+    /*background-position: absolute;*/
+    /*position: absolute*/
+    position: sticky;
 }
 
 .main {
