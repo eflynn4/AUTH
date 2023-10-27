@@ -97,11 +97,11 @@ body {
     background-position-y: 14vh;
     background-size: 280px;
     background-attachment: fixed;
-    background-position: fixed;
+    /*background-position: fixed;*/
     /*position: fixed;*/
-    /*background-position: absolute;*/
+    background-position: absolute;
     /*position: absolute*/
-    position: sticky;
+    position: absolute;
 }
 
 .main {
