@@ -1011,6 +1011,11 @@ body {
         max-width: 85vw;
         height: auto;
     }
+
+    #archive__link {
+        max-width: 85vw;
+        height: auto;
+    }
 }
 
 /* --Mobile Version-- */
@@ -1092,9 +1097,5 @@ body {
     .archive__page {
         height: fit-content + 10vh;
     }
-    
-    #archive__img {
-        width: 80vw;
-        height: auto;
-    }
+
 }
