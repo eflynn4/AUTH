@@ -221,31 +221,31 @@ body {
 }
 
 #painting:nth-child(1) {
-    background-image: url('images/crazypainting2.jpg');
+    background-image: url('images/crazypainting2b.jpg');
     width: calc(var(--h)*(26/35));
     aspect-ratio: 26/35;
 }
 
 #painting:nth-child(2) {
-    background-image: url('images/crazypainting.jpg');
+    background-image: url('images/crazypaintingb.jpg');
     width: calc(var(--h)*(13/16));
     aspect-ratio: 13/16;
 }
 
 #painting:nth-child(3) {
-    background-image: url('images/8.jpg');
+    background-image: url('images/8b.jpg');
     width: calc(var(--h)*(26/33));
     aspect-ratio: 26/33;
 }
 
 #painting:nth-child(4) {
-    background-image: url('images/10.jpg');
+    background-image: url('images/10b.jpg');
     width: calc(var(--h)*(25/34));
     aspect-ratio: 25/34;
 }
 
 #painting:nth-child(5) {
-    background-image: url('images/9.jpg');
+    background-image: url('images/9b.jpg');
     width: calc(var(--h)*(26/35));
     aspect-ratio: 26/35;
 }
@@ -275,68 +275,68 @@ body {
 }
 
 #digital:nth-child(1) {
-    background-image: url('images/pnt14.jpg');
+    background-image: url('images/pnt14b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #digital:nth-child(2) {
-    background-image: url('images/pnt12.jpg');
+    background-image: url('images/pnt12b.jpg');
     width: calc(var(--h)*(33/42));
     aspect-ratio: 33/42;
 }
 
 #digital:nth-child(5) {
-    background-image: url('images/pnt13.jpg');
+    background-image: url('images/pnt13b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #digital:nth-child(4) {
-    background-image: url('images/pnt10.jpg');
+    background-image: url('images/pnt10b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #digital:nth-child(6) {
-    background-image: url('images/pnt11.jpg');
+    background-image: url('images/pnt11b.jpg');
     width: calc(var(--h)*(5/4));
     aspect-ratio: 5/4;
 }
 
 #digital:nth-child(3) {
-    background-image: url('images/pnt7.jpg');
+    background-image: url('images/pnt7b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #digital:nth-child(7) {
-    background-image: url('images/pnt2.jpg');
+    background-image: url('images/pnt2b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #digital:nth-child(9) {
-    background-image: url('images/pnt9.jpg');
+    background-image: url('images/pnt9b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #digital:nth-child(8) {
-    background-image: url('images/pnt15.jpg');
+    background-image: url('images/pnt15b.jpg');
     width: var(--h);
     aspect-ratio: 1;
 }
 
 #digital:nth-child(10) {
-    background-image: url('images/pnt18.jpg');
+    background-image: url('images/pnt18b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 
 }
 
 #digital:nth-child(11) {
-    background-image: url('images/pnt16.jpg');
+    background-image: url('images/pnt16b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
@@ -624,193 +624,193 @@ body {
 }
 
 #archive__link:nth-child(32) {
-    background-image: url('images/pnt21.jpg');
+    background-image: url('images/pnt21b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(31) {
-    background-image: url('images/pnt14.jpg');
+    background-image: url('images/pnt14b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #archive__link:nth-child(30) {
-    background-image: url('images/pnt13.jpg');
+    background-image: url('images/pnt13b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(29) {
-    background-image: url('images/pnt12.jpg');
+    background-image: url('images/pnt12b.jpg');
     width: calc(var(--h)*(11/14));
     aspect-ratio: 11/14;
 }
 
 #archive__link:nth-child(28) {
-    background-image: url('images/pnt11.jpg');
+    background-image: url('images/pnt11b.jpg');
     width: calc(var(--h)*(5/4));
     aspect-ratio: 5/4;
 }
 
 #archive__link:nth-child(27) {
-    background-image: url('images/pnt15.jpg');
+    background-image: url('images/pnt15b.jpg');
     width: calc(var(--h)*(1/1));
     aspect-ratio: 1/1;
 }
 
 #archive__link:nth-child(26) {
-    background-image: url('images/pnt10.jpg');
+    background-image: url('images/pnt10b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(25) {
-    background-image: url('images/pnt2.jpg');
+    background-image: url('images/pnt2b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(24) {
-    background-image: url('images/pnt8.jpg');
+    background-image: url('images/pnt8b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #archive__link:nth-child(23) {
-    background-image: url('images/pnt9.jpg');
+    background-image: url('images/pnt9b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #archive__link:nth-child(22) {
-    background-image: url('images/pnt19.jpg');
+    background-image: url('images/pnt19b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #archive__link:nth-child(21) {
-    background-image: url('images/pnt7.jpg');
+    background-image: url('images/pnt7b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #archive__link:nth-child(20) {
-    background-image: url('images/pnt20.jpg');
+    background-image: url('images/pnt20b.jpg');
     width: calc(var(--h)*(5/4));
     aspect-ratio: 5/4;
 }
 
 #archive__link:nth-child(19) {
-    background-image: url('images/pnt16.jpg');
+    background-image: url('images/pnt16b.jpg');
     width: calc(var(--h)*(5/6));
     aspect-ratio: 5/6;
 }
 
 #archive__link:nth-child(18) {
-    background-image: url('images/pnt6.jpg');
+    background-image: url('images/pnt6b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(17) {
-    background-image: url('images/pnt4.jpg');
+    background-image: url('images/pnt4b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(16) {
-    background-image: url('images/pnt3.jpg');
+    background-image: url('images/pnt3b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(15) {
-    background-image: url('images/pnt18.jpg');
+    background-image: url('images/pnt18b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(14) {
-    background-image: url('images/crazypainting2.jpg');
+    background-image: url('images/crazypainting2b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(13) {
-    background-image: url('images/crazypainting.jpg');
+    background-image: url('images/crazypaintingb.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(12) {
-    background-image: url('images/10.jpg');
+    background-image: url('images/10b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(11) {
-    background-image: url('images/9.jpg');
+    background-image: url('images/9b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(10) {
-    background-image: url('images/8.jpg');
+    background-image: url('images/8b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(9) {
-    background-image: url('images/7.jpg');
+    background-image: url('images/7b.jpg');
     width: calc(var(--h)*(3/4));
     aspect-ratio: 3/4;
 }
 
 #archive__link:nth-child(8) {
-    background-image: url('images/6.jpg');
+    background-image: url('images/6b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(7) {
-    background-image: url('images/5.jpg');
+    background-image: url('images/5b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(6) {
-    background-image: url('images/4.jpg');
+    background-image: url('images/4b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(5) {
-    background-image: url('images/pnt1.jpg');
+    background-image: url('images/pnt1b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(4) {
-    background-image: url('images/pnt17.jpg');
+    background-image: url('images/pnt17b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(3) {
-    background-image: url('images/3.jpg');
+    background-image: url('images/3b.jpg');
     width: calc(var(--h)*(4/5));
     aspect-ratio: 4/5;
 }
 
 #archive__link:nth-child(2) {
-    background-image: url('images/2.jpg');
+    background-image: url('images/2b.jpg');
     width: calc(var(--h)*(14/18));
     aspect-ratio: 14/18;
 }
 
 #archive__link:nth-child(1) {
-    background-image: url('images/1.jpg');
+    background-image: url('images/1b.jpg');
     width: calc(var(--h)*(2195/2818));
     aspect-ratio: 2195/2818;
 }
@@ -916,7 +916,6 @@ body {
         height: 360px;
         width: 270px;
     }
-
 }
 
 @media screen and (max-width: 1245px) {
@@ -970,6 +969,11 @@ body {
         height: 65vh;
         width: auto;
     }
+
+    .portfolio__page {
+        margin-top: 4vh;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -1011,8 +1015,31 @@ body {
 
 /* --Mobile Version-- */
 
-@media screen and (max-width: 500px){
-    
+@media screen and (max-width: 550px){
+
+    #portfolio__img {
+        margin-top: 5vh;
+        margin-bottom: auto;
+        width: 70vw;
+        height: auto;
+    }
+
+    .portfolio__details {
+        width: 90vw;
+        height: auto;
+        margin-left: 0vh;
+        margin-bottom: 7vh;
+    }
+
+    .portfolio__details h1 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .portfolio__details h4 {
+        margin-top: 0vh;
+    }
+
     .product__container {
         height: fit-content;
     }
@@ -1021,7 +1048,7 @@ body {
         width: 90vw;
         height: auto;
     }
-    
+
     .product__details h1 {
         font-size: 2.2rem;
         text-shadow: none;
@@ -1056,7 +1083,7 @@ body {
     }
 
     #product__img {
-        margin-top: 10vh;
+        margin-top: 7vh;
         margin-bottom: auto;
         width: 70vw;
         height: auto;
