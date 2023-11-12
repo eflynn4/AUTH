@@ -1052,30 +1052,30 @@ body {
     .product__details h1 {
         font-size: 2.2rem;
         text-shadow: none;
-        -webkit-text-stroke-color:rgba(0, 0, 0, 0.7);
-        -webkit-text-stroke-width: 1px;
+        /*-webkit-text-stroke-color:rgba(0, 0, 0, 0.7);
+        -webkit-text-stroke-width: 1px;*/
     }
 
     .product__details h2 {
         font-size: 1.8rem;
         text-shadow: none;
-        -webkit-text-stroke-color:rgba(0, 0, 0, 0.5);
-        -webkit-text-stroke-width: 1px;
+        /*-webkit-text-stroke-color:rgba(0, 0, 0, 0.5);
+        -webkit-text-stroke-width: 1px;*/
     }
 
     .product__details h3 {
         font-size: 1.2rem;
         margin-bottom: 10vh;
         text-shadow: none;
-        -webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
-        -webkit-text-stroke-width: 0.5px;
+        /*-webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
+        -webkit-text-stroke-width: 0.5px;*/
     }
 
     .product__details p {
         font-size: 1.2rem;
         text-shadow: none;
-        -webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
-        -webkit-text-stroke-width: 0.4px;
+        /*-webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
+        -webkit-text-stroke-width: 0.4px;*/
     }
 
     .product__details p span {
