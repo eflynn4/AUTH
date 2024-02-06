@@ -347,6 +347,24 @@ body {
     aspect-ratio: 4/5;
 }
 
+#digital:nth-child(13) {
+    background-image: url('images/pnt24b.jpg');
+    width: calc(var(--h)*(11/14));
+    aspect-ratio: 11/14;
+}
+
+#digital:nth-child(14) {
+    background-image: url('images/pnt23b.jpg');
+    width: calc(var(--h)*(700/902));
+    aspect-ratio: 700/902;
+}
+
+#digital:nth-child(15) {
+    background-image: url('images/pnt25b.jpg');
+    width: calc(var(--h)*(11/14));
+    aspect-ratio: 11/14;
+}
+
 #digital:hover {
     transform: scale(1.025);
     transition: 0.2 ease-in;
@@ -627,6 +645,24 @@ body {
     transform: scale(1.025);
     transition: 0.2 ease-in;
     cursor: pointer;
+}
+
+#archive__link:nth-child(36) {
+    background-image: url('images/pnt25b.jpg');
+    width: calc(var(--h)*(11/14));
+    aspect-ratio: 11/14;
+}
+
+#archive__link:nth-child(35) {
+    background-image: url('images/pnt24b.jpg');
+    width: calc(var(--h)*(11/14));
+    aspect-ratio: 11/14;
+}
+
+#archive__link:nth-child(34) {
+    background-image: url('images/pnt23b.jpg');
+    width: calc(var(--h)*(700/902));
+    aspect-ratio: 700/902;
 }
 
 #archive__link:nth-child(33) {
