@@ -48,7 +48,20 @@
         <div class="main__background--img">
             <div class="product__container">
                 <div class="product__page">
-                    <div class="product__img--container">
+                    <div class="garment__img__container">
+                      <div class="garment__buttons">
+                        <button class="garm__butt" onclick="changeImage('garm1a.jpg')"></button>
+                        <button class="garm__butt" onclick="changeImage('garm1b.jpg')"></button>
+                        <button class="garm__butt" onclick="changeImage('garm1c.jpg')"></button>
+                        <button class="garm__butt" onclick="changeImage('garm1d.jpg')"></button>
+
+                        <script>
+                          function changeImage(img) {
+                            var image = document.getElementById('garment__img');
+                            image.src = 'images/' + img;
+                          }
+                        </script>
+                      </div>
                         <img src="images/garm1a.jpg" alt="pic" id="garment__img">
                     </div>
                     <div class="garment__details">

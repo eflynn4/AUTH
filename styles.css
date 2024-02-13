@@ -89,7 +89,7 @@ body {
 
 
 
-.main__background {
+.background {
     /*background: #7d7b81;*/
     /*background-image: linear-gradient(to right, rgb(201, 201, 201) 0%, rgb(105, 105, 105) 70%, #3a3a3a 100%);*/
 }
@@ -134,7 +134,7 @@ body {
     border-style: solid;*/
     margin-top: 1.5rem;
     margin-bottom: 0.1rem;
-    width: 95vw;
+    width: 92vw;
     font-size: 3rem;
     /*text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 1);*/
     background-color: rgb(255, 255, 255);
@@ -555,7 +555,7 @@ body {
 #garment__img {
     margin: 1rem;
     /* margin-right: 2rem; */
-    /* margin-left: 3rem; */
+    margin-left: 1.5rem;
     height: 68vh;
     width: auto;
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 14px rgba(0, 0, 0, 0.2);
@@ -589,6 +589,53 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 0vh;
+}
+
+.garment__buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.garment__img__container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.garm__butt {
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 6px;
+    background: none;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.5), 0px 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.garm__butt:nth-child(1) {
+    background-image: url('images/garm1a.jpg');
+}
+.garm__butt:nth-child(2) {
+    background-image: url('images/garm1b.jpg');
+}
+.garm__butt:nth-child(3) {
+    background-image: url('images/garm1c.jpg');
+}
+.garm__butt:nth-child(4) {
+    background-image: url('images/garm1d.jpg');
+}
+
+.garm__butt:hover {
+    transform: scale(1.025);
+    transition: 0.2 ease-in;
+    cursor: pointer;
 }
 
 .product__details h1 {
@@ -1188,7 +1235,52 @@ body {
 
 /* --Mobile Version-- */
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
+
+    .garment__buttons {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .garment__img__container {
+        flex-direction:row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    #garment__img {
+        margin: 1rem;
+        height: 64vh;
+        width: auto;
+        box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 14px rgba(0, 0, 0, 0.2);
+    }
+
+    .garment__details {
+        width: 80vw;
+    }
+
+    .garment__details h1 {
+        font-size: 2.4rem;
+        -webkit-text-stroke-width: .8rem;
+    }
+
+    .garment__details h2 {
+        font-size: 2.3rem;
+        -webkit-text-stroke-width: .7rem;
+        margin-bottom: 1vh;
+    }
+
+    .garment__details h3 {
+        margin-bottom: 2vh;
+    }
+
+    .garm__butt {
+        padding: 0px;
+        margin: 6px;
+        width: 14.5vh;
+        height: 14.5vh;
+    
+        box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.5), 0px 0px 8px 10px rgba(0, 0, 0, 0.2);
+    }
 
     #portfolio__img {
         margin-top: 5vh;
@@ -1238,7 +1330,7 @@ body {
 
     .product__details h3 {
         font-size: 1.2rem;
-        margin-bottom: 10vh;
+        margin-bottom: 4vh;
         text-shadow: none;
         /*-webkit-text-stroke-color:rgba(0, 0, 0, 0.8);
         -webkit-text-stroke-width: 0.5px;*/
@@ -1264,6 +1356,10 @@ body {
 
     .archive__page {
         height: fit-content + 10vh;
+    }
+
+    .main__container h1 {
+        width: 85vw;
     }
 
 }
