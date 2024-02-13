@@ -766,6 +766,22 @@ body {
 }
 
 .garment__details h4 {
+    font-size: .9rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #1e1e1e 0%, rgb(111, 111, 111) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: .8rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.15);
+    -moz-text-fill-color: transparent;
+    -webkit-appearance: none;
+}
+
+.garment__details h5 {
     font-size: 1rem;
     padding-top: 7px;
     padding-bottom: 7px;
