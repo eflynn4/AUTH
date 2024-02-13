@@ -261,6 +261,37 @@ body {
 
 
 
+#garment {
+    --h: 340px;
+    height: var(--h);
+    display: block;
+    margin: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    color: #fff;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 8px rgba(0, 0, 0, 0.2);
+}
+
+#garment:hover {
+    transform: scale(1.025);
+    transition: 0.2 ease-in;
+    cursor: pointer;
+}
+
+#garment:nth-child(1) {
+    background-image: url('images/garm1a.jpg');
+    width: calc(var(--h));
+    aspect-ratio: 1;
+}
+
+
+
+
+
+
+
 #digital {
     --h: 380px;
     height: var(--h);
@@ -521,6 +552,15 @@ body {
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 14px rgba(0, 0, 0, 0.2);
 }
 
+#garment__img {
+    margin: 1rem;
+    /* margin-right: 2rem; */
+    /* margin-left: 3rem; */
+    height: 68vh;
+    width: auto;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5), 0px 0px 12px 14px rgba(0, 0, 0, 0.2);
+}
+
 .product__details {
     margin: 1rem;
     /* margin-left: 2rem; */
@@ -541,6 +581,14 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 3vh;
+}
+
+.garment__button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0vh;
 }
 
 .product__details h1 {
@@ -589,7 +637,7 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color:rgb(255, 255, 255);
     -webkit-text-stroke-width: .8rem;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.1);
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.15);
     -moz-text-fill-color: transparent;
     -webkit-appearance: none;
 }
@@ -613,6 +661,78 @@ body {
     font-size: 1.5rem;
 }
 
+.garment__details {
+    margin: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 45vw;
+}
+
+.garment__details h1 {
+    font-size: 2.7rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #202020 0%, #949494 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: .9rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.28);
+    -webkit-appearance: none;
+}
+
+.garment__details h2 {
+    font-size: 2.4rem;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #202020 0%, #949494 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: .7rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.28);
+    -webkit-appearance: none;
+}
+
+.garment__details h3 {
+    font-size: 2rem;
+    padding-top: 7px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #1e1e1e 0%, rgb(111, 111, 111) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: .7rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.28);
+    -moz-text-fill-color: transparent;
+    -webkit-appearance: none;
+}
+
+.garment__details h4 {
+    font-size: 1rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #1e1e1e 0%, rgb(111, 111, 111) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: .8rem;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.15);
+    -moz-text-fill-color: transparent;
+    -webkit-appearance: none;
+}
 
 
 
